@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C a l c u l a t o r</title>
+    <link 
+      rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" 
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" 
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="style/index.css" />
+  </head>
+  <body>
+    <div class="start-screen">
+      <h1>Приветствую Вас на странице с калькуьятором!</h1>
+      <div class="instruction">
+        <div class="calc1-instruction">
+          <span>Изначально калькулятор выглядит так. Он может выполнять базовые операции (сложение, вычитаение, умножение и деление). Он умеет работать с дробями</span>
+          <img src="assets/images/calc1.png" alt="calc1" class="calc-img">
+        </div>
+        <div class="calc2-instruction">
+          <span>Если вы нажмете на кнопку в правом нижнем углу - откроються кнопки, отвечающие за дополнительный функционал (Возведение в степень, извлечение квадратного корня и кнопка, которая изменяет знак числа на противоположный</span>
+          <img src="assets/images/calc2.png" alt="calc2" class="calc-img">
+        </div>
+      </div>
+      <div class="continue-button">Начать</div>
+    </div>
+    <div class="calculator">
+      <div class="calculator-display">
+        <div data-second-screen class="second-screen"></div>
+        <div data-current-screen class="current-screen"></div>
+      </div>
+      <button data-all-clear class="zero-button">AC</button>
+      <button data-delete >DEL</button>
+      <button data-change class="extra-data button-hide">+ / -</button>
+      <button data-square class="extra-data button-hide"><i class="fas fa-square-root-alt"></i></button>
+      <button data-exponentiation class="extra-data button-hide"><i class="fas fa-superscript"></i></button> 
+      <button data-operation >&#247</button>       
+      <button data-number>1</button>
+      <button data-number>2</button>
+      <button data-number>3</button>
+      <button data-operation>*</button>    
+      <button data-number>4</button>
+      <button data-number>5</button>
+      <button data-number>6</button>
+      <button data-operation>-</button>
+      <button data-number>7</button>
+      <button data-number>8</button>
+      <button data-number>9</button>
+      <button data-operation>+</button>
+      <button data-number class="zero-button">0</button>
+      <button data-number>.</button>
+      <button data-equals>=</button>
+      <div class="hint" title="Чтобы отобразить дополнительные кнопки, нажмите на стрелочку в правом нижнем углу калькулятора"><i class="fas fa-info"></i></div>
+      <div class="extra-button"></div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
